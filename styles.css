@@ -62,6 +62,39 @@ a:hover {
 .container{
   max-width: 960px;
   margin: 0 auto;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 2fr 1fr;
+  /* grid-template-rows: auto auto auto auto; */
+  gap: 10px;
+  grid-template-areas:
+  "header1     header1"
+  "nav1        nav1"
+  "main1       main1"
+  "project1    project2"   
+  "footer1     footer1";
+}
+
+header{
+  grid-area: header1;
+}
+
+nav {
+    grid-area: nav1;
+}
+
+main {
+  grid-area: main1;
+}
+
+#aside1{
+  grid-area: aside1;
+  background: #d3d3d3;
+}
+
+#aside2{
+  grid-area: aside2;
+  background: #d3d3d3;
 }
 
 
