@@ -64,7 +64,7 @@ a:hover {
   margin: 0 auto;
   display: grid;
   margin: 0 auto;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
   gap: 10px;
   grid-template-areas:
   "header1  header1"
