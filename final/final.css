@@ -79,6 +79,30 @@ img {
   max-height: 50%;
 }
 
+caption{
+  text-align:left;
+  padding-bottom: 10px;
+  font-weight:bolder;
+
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+border-collapse: collapse;
+border: 1px solid rgb(174, 173, 173);
+padding: 15px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4A6D51;
+  color: white;
+}
+
 
 /* Hide only visually, but have it available for screen readers: */
 .sr-only {
