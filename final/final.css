@@ -62,8 +62,37 @@ a:hover {
 .container{
   max-width: 960px;
   margin: 0 auto;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+  grid-template-areas:
+  "header1  header1"
+  "nav1     nav1"
+  "main1    aside1"
+  "footer1  footer1";
 }
 
+header{
+  grid-area: header1;
+}
+
+nav {
+    grid-area: nav1;
+}
+
+main {
+  grid-area: main1;
+}
+
+#aside1{
+  grid-area: aside1;
+  background: #d3d3d3;
+}
+
+footer{
+  grid-area: footer1;
+}
 
 h1, h2, h3, h4 {
   font-family: 'Lora', serif;
@@ -91,7 +120,7 @@ table {
 }
 td, th {
 border-collapse: collapse;
-border: 1px solid rgb(174, 173, 173);
+border: 1.5px solid black;
 padding: 15px;
 }
 
