@@ -25,9 +25,10 @@
 
       <main>
         <section id="how">
-          <h2>How</h2>
-          <p>How to achieve universal design technically?</p>
-
+          <h2>How to achieve universal design technically?</h2>
+          <h3>
+            Universal Design principles to follow for best practice outcome
+          </h3>
           <table>
             <caption>
               7 Universal Design principles
@@ -94,42 +95,139 @@
             </tbody>
           </table>
         </section>
+
+        <section>
+          <h2>Accessibility cheatsheet</h2>
+          <h3>Use semantic HTML</h3>
+          <p>
+            Semantic HTML helps screenreader users to understand the contents
+            structure and gives it meaning. Ask yourself "What is it?" when
+            writing HTML. Use a logical headline order and structuring elements
+            as header, footer, ul, p …
+          </p>
+          <h3>Add labels to form elements</h3>
+          <p>
+            Form input elements need "linked labels" for screenreaders access
+          </p>
+          <h3>Use contrasting colors</h3>
+          <figure>
+            <img
+              src="contrast.png"
+              alt="color contrast right and wrong guideline" />
+            <figcaption>Contrasting colors</figcaption>
+          </figure>
+          <h3>Write descriptive links</h3>
+          <figure>
+            <img src="links.png" alt="how to approach descriptive links" />
+            <figcaption>Descriptive links</figcaption>
+          </figure>
+          <h3>Provide text for non-text content</h3>
+          <p>
+            Every content not represented by text is invisbible for screen
+            readers. Provide concise descriptions in alt attributes for all
+            content images and text alternatives for charts etc. CAPTCHAs also
+            need to be accessible.
+          </p>
+          <h3>Keep pinch and zoom alive</h3>
+          <p>
+            Pinching to zoom is very common and helps aging and low vision
+            users. Avoid user-scalable= "no" and maximum-scale: 1 at any cost.
+          </p>
+          <h3>Show where your :focus is</h3>
+          <p>
+            Navigating by keyboard needs the currently focused element to be
+            visibly highlighted. Interactive elements should get focused in a
+            useful order and be focusable by default. Avoid span and div.
+          </p>
+          <h3>Understandable without color</h3>
+          <p>
+            Colors should not be necessary to understand the content and its
+            current state. For example don’t highlight errors just with red
+            text. Add a subsidiary icon.
+          </p>
+          <h3>Caption video and audio</h3>
+          <p>
+            Provide text alternatives for audio and video content. Captions
+            should be made available with pre-recorded and live video/audio
+            content. Voice recognition software can help create captions for
+            some type of videos.
+          </p>
+          <h3>Use WAI-ARIA only if necessary</h3>
+          <p>
+            Dynamic sites such as single page applications tend to get
+            complicated when it comes to accessibility. Semantic HTML should
+            always be considered before using
+            <a href="https://www.w3.org/TR/wai-aria/">WAI-ARIA</a>.
+          </p>
+        </section>
       </main>
 
       <aside id="aside1">
-        <h2>10 things to know about Universal Design</h2>
+        <h2>Test for accessibility</h2>
         <ul>
           <li>
-            Universal Design strives to improve the original design concept by
-            making it more inclusive
-          </li>
-          <li>Universally Designed products can have a high aesthetic value</li>
-          <li>Universal Design is much more than just a new design trend</li>
-          <li>
-            Universal Design does not aim to replace the design of products
-            targeted at specific markets
+            Zoom to 400% Use your browser or document viewer zoom. Does all text
+            remain visible?
           </li>
           <li>
-            Universal Design is not a synonym for compliance with accessible
-            design standards
+            Check keyboard navigation Navigate just using ←↑↓→ TAB, SHIFT+TAB,
+            ESC, SPACE and ENTER keys.
+          </li>
+          <li>Turn your monitor off and use a screen-reader</li>
+          <li>
+            Run Lighthouse accessibility audit It’s in the "Audits" section
+            inside of the Chrome DevTools.
           </li>
           <li>
-            Universal Design benefits more people than older people and people
-            with disabilities
+            Deactivate CSS Check if the document structure still makes sense.
           </li>
+          <li>Use WAVE for color contrast testing</li>
           <li>
-            Universal Design can be undertaken by any designer, not just the
-            specialists
-          </li>
-          <li>
-            Universal Design should be integrated throughout the design process
-          </li>
-          <li>Universal Design is not just about 'one size fits all'</li>
-          <li>
-            A Universally Designed product is the goal: Universal Design is the
-            process
+            Use "HTML5 Outliner" to review page outliner to detect untitled
+            elements
           </li>
         </ul>
+        <h3>How can I test my website for accessibility?</h3>
+        <ul>
+          <li>Validate your HTML.</li>
+          <li>Validate for accessibility.</li>
+          <li>Check for keyboard accessibility.</li>
+          <li>Test in a screen reader.</li>
+          <li>Check your pages for WCAG compliance.</li>
+          <li>Conduct user testing.</li>
+          <li>Repeat this process.</li>
+        </ul>
+      </aside>
+
+      <aside id="aside2">
+        <h2>Universal Design Approach</h2>
+        <p>
+          Application of a Universal Design Approach can complement any design
+          process by prioritising design activities that enable an organisation
+          to extend their range of users by identifying diverse user needs,
+          characteristics, capabilities, and preferences; by directly or
+          indirectly involving users; and by using knowledge about accessibility
+          in its procedures and processes. A resource for organisations is the
+          standard EN 17161. Standardised across Europe, “EN 17161:2019 Design
+          for All - Accessibility following a Design for All approach in
+          products, goods and services - Extending the range of users’ is a
+          process standard about using a Universal Design approach at all levels
+          in organisations to continuously improve and manage the accessibility
+          and usability of the products and services they provide. Stories from
+          ALONE and Dolmen as Early Adopters of EN 17161 is in a webinar. Also
+          find, two publications about implementing Universal Design guidance
+          and accessibility standards for continuous improvement and informing
+          procurement activities at ALONE. EN 17161 is part of a suite of
+          standards that can be used by organisations to demonstrate their
+          conformance with the European Accessibility Act (EAA) that requires
+          some products and services to be accessible. The European Commission
+          issued a Standardisation Request (SR), M/587, in 2022 to European
+          standards bodies to develop a number of standards in support of the
+          DIRECTIVE (EU) 2019/882. In collaboration with the National Standards
+          Authority Ireland (NSAI) the Centre for Excellence in Universal Design
+          is participating in the development and revision of these standards
+          within the scope of the EAA.
+        </p>
       </aside>
 
       <footer>

@@ -68,8 +68,7 @@ a:hover {
   grid-template-areas:
   "header1  header1"
   "nav1     nav1"
-  "main1    aside1"
-  "main1    aside2"
+  "main1    main1"
   "footer1  footer1";
 }
 
@@ -87,11 +86,6 @@ main {
 
 #aside1{
   grid-area: aside1;
-  background: #d3d3d3;
-  padding: 15px;
-}
-#aside2{
-  grid-area: aside2;
   background: #d3d3d3;
   padding: 15px;
 }
