@@ -42,11 +42,10 @@ nav ul li a {
   background: white;
   text-decoration: none;
   color: #333333;
-
 }
 a {
-  color:#4A6D51;
-}
+    color:#4A6D51;
+  }
 .container {
   max-width: 400px;
   margin: 0 auto;
@@ -231,8 +230,6 @@ and (min-width: 1100px){
     color: #4A6D51;
     font-weight: bold;
     }
-  
-
   a:hover {
       color: #4A6D51;
       font-weight: bold;
