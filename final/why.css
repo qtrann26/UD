@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Montserrat&display=swap');
 
+/* @media screen
+and (min-width: 700px){
+  
+} */
+
 .skip-link {
   background: black;
   color: #fff;
@@ -146,7 +151,7 @@ th {
   }
 
   /* mobile */
-@media screen
+/* @media screen
 and (max-width: 640px){
 
   
@@ -177,4 +182,4 @@ nav ul li a {
   background: white;
 
 }
-}
+} */
