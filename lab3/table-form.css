@@ -151,3 +151,42 @@ input:not([type="submit"]):active + .inputRequirements {
     width: 1px;
   
   }
+
+  @media screen
+  and (max-width: 640px){
+  .container {
+    display: grid;
+    max-width: 1100px;
+    margin: 0 auto;
+    grid-template-columns:
+        1fr;
+    grid-template-areas:
+      "header1"
+      "main1"
+      "aside1"
+      "aside2"
+      "form"
+      "footer"
+      "nav1";
+    }
+
+  nav{
+    grid-area: nav1;
+  }
+  
+  nav {
+    background: #4A6D51;
+  }
+  nav ul {
+    flex-flow: column nowrap;
+    text-align: center;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px 5px;
+    margin: 5px;
+    border: 1px black solid;
+    background: white;
+  
+  }
+  }
