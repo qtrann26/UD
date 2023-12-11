@@ -26,7 +26,7 @@ body{
   background-color: whitesmoke;
   font-family: 'Montserrat', sans-serif; 
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.7em;
 } 
 
 nav {
@@ -60,7 +60,6 @@ a {
     "main1"
     "aside1"
     "aside2"
-    "footer1"
     "nav1";
   }
   header{
@@ -71,9 +70,6 @@ a {
   }
   nav {
     grid-area: nav1;
-  }
-  footer{
-    grid-area: footer1;
   }
   img {
     max-width: 90%;
@@ -127,8 +123,7 @@ grid-template-areas:
   "nav1"
   "main1"
   "aside1"
-  "aside2"
-  "footer1";
+  "aside2";
 }
 nav {
   padding: 1em;
@@ -174,8 +169,7 @@ and (min-width: 1100px){
     "header1  header1"
     "nav1     nav1"
     "main1    aside1"
-    "main1    aside2"
-    "footer1  footer1";
+    "main1    aside2";
   }
   
   header{
@@ -190,15 +184,16 @@ and (min-width: 1100px){
   #aside1{
     grid-area: aside1;
     background: #d3d3d3;
-    padding: 25px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 20px;
   }
   #aside2{
     grid-area: aside2;
     background: #d3d3d3;
-    padding: 25px;
-  }
-  footer{
-    grid-area: footer1;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 20px;
   }
   nav {
     padding: 1em;

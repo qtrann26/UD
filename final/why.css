@@ -26,7 +26,7 @@ body{
   background-color: whitesmoke;
   font-family: 'Montserrat', sans-serif; 
   font-size: 16px;
-  line-height: 1.5em;
+  line-height: 1.7em;
 } 
 
 nav {
@@ -56,7 +56,6 @@ nav ul li a {
   grid-template-areas:
     "header1"
     "main1"
-    "footer1"
     "nav1";
   }
   header{
@@ -67,9 +66,6 @@ nav ul li a {
   }
   nav {
     grid-area: nav1;
-  }
-  footer{
-    grid-area: footer1;
   }
   img {
     max-width: 90%;
@@ -99,8 +95,7 @@ and (min-width: 700px){
 grid-template-areas:
   "header1"
   "nav1"
-  "main1"
-  "footer1";
+  "main1";
 }
 nav {
   padding: 1em;
@@ -145,8 +140,7 @@ and (min-width: 1100px){
     grid-template-areas:
     "header1  header1"
     "nav1     nav1"
-    "main1    main1"
-    "footer1  footer1";
+    "main1    main1";
   }
   
   header{
@@ -157,9 +151,6 @@ and (min-width: 1100px){
   }
   main {
     grid-area: main1;
-  }
-  footer{
-    grid-area: footer1;
   }
   nav {
     padding: 1em;
