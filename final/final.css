@@ -19,6 +19,9 @@ h1, h2, h3, h4 {
     font-weight: bold;
     line-height: 1em;
   }
+h2{
+  padding-top: 30px;
+}
 body{
   background-color: whitesmoke;
   font-family: 'Montserrat', sans-serif; 
@@ -164,7 +167,7 @@ nav a {
 @media screen
 and (min-width: 1100px){
   .container{
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
     grid-template-columns: 2fr 1fr;
     gap: 10px;
@@ -188,12 +191,12 @@ and (min-width: 1100px){
   #aside1{
     grid-area: aside1;
     background: #d3d3d3;
-    padding: 15px;
+    padding: 25px;
   }
   #aside2{
     grid-area: aside2;
     background: #d3d3d3;
-    padding: 15px;
+    padding: 25px;
   }
   footer{
     grid-area: footer1;
